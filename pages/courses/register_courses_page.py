@@ -27,7 +27,7 @@ class RegisterCoursesPage(BasePage):
     _cc_cvv = "//input[@name = 'cvc']"
     _frame_cc_cvv = "//iframe[@title='Secure CVC input frame']"
     _buy = "//*[@id='checkout-form']/div[2]/div[3]/div/div[1]/div[2]/div/button[1]"
-    _enroll_error_message = "//span[text()='Your card number is incomplete.']"
+    _enroll_error_message = "//span[text()='Your card number is invalid.']"
 
 
 
