@@ -10,6 +10,6 @@ tc2 = unittest.TestLoader().loadTestsFromTestCase(RegisterCourseCSVDataTests)
 
 #create test suite
 
-smokeTest = unittest.TestSuite([tc1])
+smokeTest = unittest.TestSuite([tc1,tc2])
 
 unittest.TextTestRunner(verbosity=2).run(smokeTest)

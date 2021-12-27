@@ -36,7 +36,7 @@ class LoginPage(BasePage):
         self.clickLoginButton()
 
     def verifyLoginSuccess(self):
-        result = self.isElementPresent("//div[@class='dropdown open']",locatorType="xpath")
+        result = self.isElementPresent("dropdownMenu1")
         return result
 
     def verifyLoginFailed(self):
